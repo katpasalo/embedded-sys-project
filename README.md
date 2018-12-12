@@ -1,5 +1,32 @@
 # Magician's Mission
 
+## High Level Description
+In the “Magician’s Mission” side-scrolling game, the user takes on the role of a magician. The user can cast a spell on surrounding ghosts or otherwise take damage when crossing paths with them. The user can also strive to get their score displayed as the overall high score; alternatively, if they lose all their hearts, they lose the game, and the ghosts dominate.
+
+## User Guide 
+### Rules
+* For every two ghosts killed, your score increases by one
+* When you run into a ghost, your score decreases by one, and your health points decrease by one heart
+* If you lose all of your hearts, you lose - it’s “GAME OVER”
+* You win after encountering all ghosts in the map without dying
+### Controls
+* Attack with the button on the left
+* Move left or right with the buttons on the right
+### Other Features
+* Soft reset with the button on the upper right
+* High score maintains value after hard reset
+
+## Technologies and Components
+* Atmel Studio 7.0
+* ATmega1284-PU
+* 16x2 LCD Display
+* Buttons
+* Game logic
+* EEPROM
+* Custom characters
+* Shift Register
+* 7-Segment display
+
 ## Source Files
 
 ### Game.h
